@@ -1,4 +1,8 @@
 /* general */
+body{
+    overflow-x: hidden;
+   
+}
 .page-container {
     background-color: lightgrey;
 }
@@ -6,12 +10,6 @@
 @media screen and (min-width: 768px) {
     .page-container {
         padding: 5em 10%;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .page-container {
-        padding: 5em 25%;
     }
 }
 
@@ -27,6 +25,8 @@ h2 {
 h3 {
     margin: 1em 0;
 }
+
+
 
 /*menu navbar*/
 
@@ -50,8 +50,19 @@ h3 {
 /*sidebar*/
 
 .recipe-navbar {
+   
     background-color: #AA8B56;
-    font-size: larger;
+    font-weight: bold;
+    color: #d7dee3;
+   
+
+}
+
+.recipe-navbar li{
+    border-bottom: 1px solid #f0f2f4;
+}
+.recipe-navbar a{
+    text-decoration: none;
 }
 
 .recipe-navbar li {
@@ -76,10 +87,7 @@ h3 {
     gap: 0.5em;
 }
 
-.recipe-image {
-    position: relative;
-    margin-top: 2em;
-}
+
 
 .recipe-image img {
     display: block;
@@ -87,6 +95,8 @@ h3 {
     height: auto;
     object-fit: cover;
 }
+
+
 
 .recipe-image_overlay {
     position: absolute;
@@ -119,4 +129,59 @@ h3 {
 .instructions {
     margin-bottom: 4em;
 }
+/*Ammar CSS*/
 
+.logo{
+    
+    font-weight: bolder;
+}
+
+.humus{
+    height: 75%;
+    width: 40vw;
+    border-radius: 10px  ;
+    
+    
+}
+
+.header1{
+    font-weight: bold;
+    border-radius: 5px;
+    line-height: 5px;
+    box-shadow: -38px 8px 20px rgba(0, 0, 0, 0.2);
+    
+   
+}
+.message{
+    
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    left: 35%;
+}
+
+.logo{
+    text-shadow: -26px 5px 10px rgba(169, 164, 136, 0.8);
+color: #a9a488;
+}
+footer{
+    background-color:rgb(140, 137, 121);
+    color:grey;
+}
+footer a{
+    color: grey;
+}
+
+iframe{
+    width: 80vw;
+    height: 80vh;
+    scroll-behavior: none;
+   
+   
+}
+
+.iframe{
+    background-color: rgb(240, 235, 206);
+  
+}
