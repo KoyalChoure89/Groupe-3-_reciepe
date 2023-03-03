@@ -2,14 +2,14 @@
  
   function shareEvent(){
     alert('Please leave a message');
-    console.log('Ammar');
+   
    
     
   } 
   
   function navigation(){
 
-    console.log('Ammar');
+   
    
     document.getElementById("#frame").src = "./frames/beryani.html";
 

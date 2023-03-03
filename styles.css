@@ -113,7 +113,7 @@ h3 {
     transition: opacity .5s, visibility;
   }
 
-.recipe-image:hover .recipe-image_overlay {
+.recipe-image:hover  {
     display: flex;
     visibility: visible;
     justify-content: center;
